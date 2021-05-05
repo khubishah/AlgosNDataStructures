@@ -1,0 +1,27 @@
+findMedianSortedArray(int[] a, int [] b) {
+    // null check case here for either
+    aLen = a.length
+    bLen = b.length
+    median = (aLen + bLen) / 2
+    (aMinCount, aMaxCount) = getMinMaxCounts(a,b);
+    while (aMinCount <= aMaxCount) do
+        aCount = (aMinCount + aMaxCount) / 2
+        x = a[aAcount - 1];
+        xP = a[aCount]
+        y = b[median - aCount -1];
+        yP = b[median - aCount];
+        if (x > yP) then
+            aMaxCount = aCount - 1
+        if (xP < y) then
+            aMinCount = aCount + 1
+        if (x <= y <= yP || y <= x <= yP) then
+            if total length is even then
+                return 0.5 * (x + y)
+            else 
+                return max(x,y)
+    done
+    return -1
+}
+
+getMinMaxCounts(int[] a, int[] b)
+    return max(median, b.length)
