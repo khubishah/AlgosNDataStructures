@@ -25,3 +25,5 @@ findMedianSortedArray(int[] a, int [] b) {
 
 getMinMaxCounts(int[] a, int[] b)
     return max(median, b.length)
+    
+// runtime: O(log(m+n)) space: O(1)!! YEET.
