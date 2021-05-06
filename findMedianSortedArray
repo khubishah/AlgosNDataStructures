@@ -1,3 +1,5 @@
+Just pseudocode for now. Will change to proper code later!
+
 findMedianSortedArray(int[] a, int [] b) {
     // null check case here for either
     aLen = a.length
