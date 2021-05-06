@@ -2,6 +2,8 @@
 Given a 2D grid where each spot has a integer value, starting from orig (0,0), find the greatest total 
 weight you can accumulate with K steps starting at the origin.
 
+Assumption: all grid values are > 0
+
 i.d.
 _______
 3|4|2|1
